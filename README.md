@@ -35,3 +35,6 @@ Given there are no path alias defined.
 
 ![img_4.png](img_4.png)
 
+Possibly adjacent to issues like:
+* https://youtrack.jetbrains.com/issue/WEB-56970/Sveltekit-path-mappings-from-tsconfig.json-not-used-when-importing-modules
+
