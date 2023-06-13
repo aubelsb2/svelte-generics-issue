@@ -2,7 +2,6 @@ This is for a coule of idea issues:
 
 # Issue 1: `$$Generic` isn't supported
 
-
 ![img_1.png](img_1.png)
 
 It should be used to set the type on the slot here:
@@ -17,6 +16,12 @@ I expect it to be `string`
 
 This seems partially supported, since I have a matching 
 slot definition below this should be considered in use.
+
+Nor does it offer suggestions:
+
+![img_5.png](img_5.png)
+
+![img_6.png](img_6.png)
 
 # Issue 3: Default import paths
 
