@@ -1,38 +1,23 @@
-# create-svelte
+This is for a coule of idea issues:
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Issue 1: `$$Generic` isn't supported
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+![img_1.png](img_1.png)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+It should be used to set the type on the slot here:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+![img_3.png](img_3.png)
 
-## Developing
+I expect it to be `string`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Issue 2: `$$Slots`
 
-```bash
-npm run dev
+![img.png](img.png)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+This seems partially supported, since I have a matching 
+slot definition below this should be considered in use.
 
-## Building
+# Issue 3: Default import paths
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Default import path on a brand new project generated using the "getting started guide" is "wrong".

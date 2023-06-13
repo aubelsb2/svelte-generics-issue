@@ -1,7 +1,7 @@
 <script lang="ts">
     import Table from "src/routes/Table.svelte";
 
-    const rows = [
+    const rows : Array<string> = [
         "abc",
         "def",
     ];

@@ -10,7 +10,7 @@
 </script>
 
 <ul>
-    {#each row as rows}
+    {#each rows as row}
         <slot name="row" {row}>
             <li>???</li>
         </slot>
