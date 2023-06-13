@@ -21,3 +21,17 @@ slot definition below this should be considered in use.
 # Issue 3: Default import paths
 
 Default import path on a brand new project generated using the "getting started guide" is "wrong".
+JetBrains even knows it's wrong:
+
+![img_2.png](img_2.png)
+
+Should be: (relative)
+
+```
+    import Table from "./Table.svelte";
+```
+
+Given there are no path alias defined.
+
+![img_4.png](img_4.png)
+
